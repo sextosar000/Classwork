@@ -1,10 +1,16 @@
 body{
     background-color: #ffce29;
+    background-image: url("https://jlaw21.github.io/Resources/mario.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
     color: antiquewhite;
 }
 
 header{
     background-color: rgb(255, 57, 57);
+    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
 }
 
 section{
@@ -17,6 +23,7 @@ section header{
 
 aside{
     background-color: #007b4a;
+    
 }
 
 footer{
@@ -25,6 +32,8 @@ footer{
 
 nav{
     background-color: #007b4a;
+    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    background-size: contain;
 }
 
 h3{
