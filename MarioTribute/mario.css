@@ -6,15 +6,17 @@ body{
     background-position: center center;
     background-attachment: fixed;
     color: antiquewhite;
+    font-size: 100%;
 }
 
 header{
     background-color: rgb(255, 57, 57);
     background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    font-family: 'Press Start 2P', cursive;
 }
 
 section{
-    background-color: teal;
+    background-color: #1a25c0;
 }
 
 section header{
@@ -34,8 +36,24 @@ nav{
     background-color: #007b4a;
     background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
     background-size: contain;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(255, 57, 57);
 }
 
 h3{
     color: #00deff;
+    font-size: 1.4em;
+    font-style: oblique;
+}
+
+p{
+    font: small-caps 1em 'Press Start 2P', cursive;
+}
+
+li{
+    font: small-caps 1em 'Dosis', sans-serif;
+}
+
+a{
+    color: rgb(255, 163, 57);
 }
