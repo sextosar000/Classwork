@@ -11,7 +11,6 @@ body{
 
 header{
     background-color: rgb(255, 57, 57);
-    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -21,6 +20,9 @@ section{
 
 section header{
     color: #00ce00;
+    line-height: 2em;
+    text-indent: 5px;
+    
 }
 
 aside{
@@ -40,6 +42,11 @@ nav{
     color: rgb(255, 57, 57);
 }
 
+h1{
+    text-shadow: 10px 10px 2px brown;
+    text-align: center;
+}
+
 h3{
     color: #00deff;
     font-size: 1.4em;
@@ -48,12 +55,20 @@ h3{
 
 p{
     font: small-caps 1em 'Press Start 2P', cursive;
+    line-height: 1.6em;
+    text-shadow: 1px 1px 2px black;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    word-spacing: .2em;
+    text-align: center;
 }
 
 li{
     font: small-caps 1em 'Dosis', sans-serif;
+    text-align: left;
 }
 
 a{
     color: rgb(255, 163, 57);
+    text-decoration: none;
 }
