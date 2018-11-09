@@ -187,7 +187,7 @@
         <section id='teams' class='container'>
             <h1>Known Teams</h1>
             <h3>Click on a team to see details.</h3>
-            <div class="dropdown">
+            <div class="dropdown dropright">
                 <button type="button" class="btn btn-primary" data-toggle="dropdown">
                 The Teams
                 </button>
@@ -252,9 +252,57 @@
 
         <!-- THIS SECTION IS YOURS TO ADD CONTENT AND CUSTOMIZE. Firstly, research REAL LIVE QUIDDITCH. https://www.usquidditch.org is a good place to start. Plan and Design what content you would like to show to advertise or inform the users about the real sport, Quidditch. Add the content and customize using any combination of Bootstrap elements you like. Don't be boring, but don't spend 3 days 'jazzing' it up, unless you have three days to spend. Simple, eloquent yet impressive. -->
 
-        <section id='us-quidditch' class="container">
-            <h1>US Quidditch</h1>
-            <img id="usqlogo" alt="US Quidditch Logo" src="https://www.usquidditch.org/files/USQ_Logo_Color.png" width=10%>
+        <section id='us-quidditch' class="container-fluid row">
+            <h1 class="col-md-12">US Quidditch</h1>
+            <img class="col-md-3" id="usqlogo" alt="US Quidditch Logo" src="https://www.usquidditch.org/files/USQ_Logo_Color.png" width=5% height=5%>
+
+            <div class="col-md-9">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#usq-overview">OVERVIEW</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#usq-teams">TEAMS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#usq-snitch">THE SNITCH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#usq-resources">RESOURCES</a>
+                </li>
+            </ul>
+            
+            <div class='container-fluid'>
+            <section class="tab-content">
+                <article class="tab-pane container active" id='usq-overview'>
+                    <p> 
+                        Quidditch was founded in 2005 at Middlebury College by then-freshman Xander Manshel. Looking for a variation on their normal Sunday activities, Manshel and his friends laid the foundation for a game that has grown in leaps and bounds to become a widely respected, physically intense sport.
+                    </p>
+                    <p>
+                        In the United States, US Quidditch is the national governing body for the sport of quidditch. USQ advances the sport by organizing events and programs that build community and empower all genders to compete together. Founded in 2010, it helps organize and uphold a standard for collegiate, high school, and even junior leagues.
+                    </p>
+                </article>
+                <article class="tab-pane container fade" id='usq-teams'>
+                    <div class="card">
+                        <div class="card-header"><center><img src="usqmap.png"></center></div>
+                        <p class="card-body">
+                            As shown by the map above, there are teams all throughout the US. Comprised mostly of collegiate teams in the eastern US, Quidditch is slowly spreading across the globe.<br>
+                            (Note. The above map only reflects the 2018-2019 playing season as of 11/9/18)
+                        </p>
+                    </div>
+                </article>
+                <article class="tab-pane container fade" id='usq-snitch'>
+                    <p>
+                        In US Quidditch, the Snitch is done through a rather interesting process. In the movies, the golden snitch is a ball that flies around on its own, seemingly a living thing instead of an object. In real life quidditch however, the snitch is played by a person. Typically an agile cross country runner, the snitch runs around the field. There is also an actual offical USQ test for becoming a certified snitch.
+                    </p>
+                </article>
+                <article class="tab-pane container fade" id='usq-resources'>
+                    <p>
+                        weeeeeeeee
+                    </p>
+                </article>
+            </section>    
+            </div></div>
         </section>
 
         <!-- However you want to customize this, I would definately make it smaller-->
