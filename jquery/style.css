@@ -5,6 +5,9 @@ section{
 button{
     font-size: 72px;
 }
-.hideMe{
+.showMe{
     display:none;
+}
+.clickMe{
+    border: solid 2px red;
 }

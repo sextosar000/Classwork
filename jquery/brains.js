@@ -1,9 +1,8 @@
 $(document).ready(function(){
+    
 
-    $(".clickMe").click(function(){
-        $('.showMe').hide();
-        $('.hideMe').show();
+    $('.clickMe').click(function(){
+        $('.hideMe').fadeToggle(1000);
     })
-
 
 })
