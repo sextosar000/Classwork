@@ -1,16 +1,4 @@
-/*
-SCOPE
 
-GLOBAL VARIABLES - the variables can be used throughout the entire document/script
-
-LOCAL VARIABLES - the variables can only be used in the section it was defined
-
-
-*/
-
-//ACTIVE
-
-//********* NOT NEEDED FOR HTML TRIGGERING ********* */
 $(document).ready(function(){
 
     $("#button").click(function(){
@@ -20,9 +8,8 @@ $(document).ready(function(){
     })
 
 });
-//*************************************************** */
 
-//DEFINITIONS
+
 var userName;
 
 
