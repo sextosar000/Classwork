@@ -2,16 +2,22 @@
 header{
     text-align: center;
     font-family: 'ZCOOL KuaiLe', cursive;
-    color: #2C302E;
+    color: #F7FFF6;
+    background-color: #BCEBCB;
+    border-bottom-style: solid;
+    border-color: #87D68D;
+    font-size: 36px;
 }
 body{
     font-family: 'Raleway', sans-serif;
-    background-color: #2D1115;
+    background-color: #93B48B;
+    
 }
 fieldset{
     width:600px;
     margin:auto;
-    background-color: #A28F9D;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 label{
@@ -20,7 +26,7 @@ label{
     clear: left;
     text-align: right;
     padding-right: 1em;
-    color: #65334D;
+    color: #474A48;
 }
 
 input{
@@ -42,5 +48,24 @@ button{
     position: relative;
     top: 600px;
     opacity: 0;
-    
+    padding-bottom: 2%;
+}
+
+.madlib{
+    width:75%;
+    background-color: #8491A3;
+    margin: auto;
+    border-style: groove;
+    border-color: rgb(165, 187, 172);
+}
+
+footer{
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-right: 1%;
+    background-color: #BCEBCB;
+    border-top-style: solid;
+    border-color: #87D68D;
 }
